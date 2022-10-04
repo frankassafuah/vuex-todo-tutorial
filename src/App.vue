@@ -19,7 +19,7 @@ export default {
     TodosList,
     TodoForm,
   },
-  computed: {
+  computed: { 
     ...mapGetters({
       completedTodos: "completedTodos",
       pendingTodos: "pendingTodos",
